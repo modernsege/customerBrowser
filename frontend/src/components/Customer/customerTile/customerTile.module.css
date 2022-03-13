@@ -1,0 +1,35 @@
+.tile{
+    display: flex;
+    min-height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.tile:hover{
+    background-color: #fdfbfb;
+}
+
+.buttons{
+    align-self: end;
+    font-size: 18px;
+}
+
+.info{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.info:hover{
+    color: #008ee8;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: red;
+}

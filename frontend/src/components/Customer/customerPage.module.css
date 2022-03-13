@@ -1,0 +1,48 @@
+.main-window{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.customers-list{
+    min-height: 250px;
+    min-width: 900px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 7px 0 rgb(0 0 0 / 40%);
+    -moz-box-shadow: 0 0 7px 0 rgb(0 0 0 / 40%);
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 20%);
+    padding: 20px;
+}
+
+.pagination{
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.add{
+    display: flex;
+    justify-content: end;
+
+}
+.add-span{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.add-span:hover{
+    color: #008ee8;
+}
+
